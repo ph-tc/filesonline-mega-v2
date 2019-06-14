@@ -112,7 +112,7 @@ html {
 }
 
 body {
-    position: relative;
+    position: fixed;
     display: table;
     height: 100%;
     width: 100%;
@@ -121,6 +121,7 @@ body {
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    overflow: hidden;
 }
 
 img {
@@ -139,8 +140,8 @@ img {
 /*OFFER*/
 
 .offer {
-    display: table-row;
     width: 100%;
+    padding: 2px;
     font-size: 0;
     text-align: center;
 }
@@ -421,7 +422,7 @@ img {
 .footer a {
     font-family: 'Open Sans', sans-serif;
     font-weight: normal;
-    font-size: 10px;
+    font-size: 9px;
     line-height: 1;
     text-align: center;
     color: #5D6C7E;

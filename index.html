@@ -12,11 +12,10 @@
 
 
 <body>
-  <div class="offer">
-    <span>Нажатием на кнопку "Смотреть" Вы подтверждаете свое согласие с подключением подписки SUBNAME и <a href="http://podpiski.megafon.ru/col/mds4/web/jsp/files/oferta.pdf">Условиями предоставления подписки</a>. Стоимость подписки SUBPRICE.ACCOUNT. Услуга предоставляется Контент-провайдером PROVIDER.</span>
-  </div>
-
   <div class="header">
+    <div class="offer">
+      <span>Нажатием на кнопку "Смотреть" Вы подтверждаете свое согласие с подключением подписки SUBNAME и <a href="http://podpiski.megafon.ru/col/mds4/web/jsp/files/oferta.pdf">Условиями предоставления подписки</a>. Стоимость подписки SUBPRICE.ACCOUNT. Услуга предоставляется Контент-провайдером PROVIDER.</span>
+    </div>
     <div class="inner">
       <div class="cloud"></div>
       <div class="name">
@@ -59,30 +58,6 @@
       Информация для абонентов - тел. 8 800 500-25-43 (бесплатно в домашнем регионе) | <a href="#">Правила подписки поставщика</a> услуг | <a href="#">Личный кабинет</a>
     </p>
   </div>
-
-  <script type="text/javascript">
-      //<![CDATA[
-      function rsz() {
-          var footer = document['getElementById']('footer');
-          footer['style']['bottom'] = "auto";
-          footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
-
-          document.body.style.height = window.innerHeight + 'px';
-      }
-      setInterval(function() {
-          rsz()
-      }, 100);
-      window['onresize'] = function() {
-          window['scrollTo'](0, 0);
-          setTimeout(function() {
-              rsz()
-          }, 100)
-      };
-      document.addEventListener('touchmove', function(e) {
-          e.preventDefault();
-      }, { passive: false });
-      //]]>
-  </script>
 
 </body>
 </html>
